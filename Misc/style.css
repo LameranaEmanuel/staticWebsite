@@ -2,6 +2,32 @@
     font-family: Helvetica;
 }
 
-tr{
-    border: 1px;
+table {
+    width: 50%;
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 2px;
+    text-align: left;
+}
+
+th{
+    padding: 2px;
+    background-color: cadetblue;
+}
+
+img{
+    float: right;
+    margin-top: 50px;
+    margin-right: 10px;
+}
+
+nav{
+    color: black;
+    border: 2px solid #ccc;
+    border-radius: 50px;
+    background-color: cadetblue;
 }
