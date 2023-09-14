@@ -31,3 +31,7 @@ nav{
     border-radius: 50px;
     background-color: cadetblue;
 }
+
+input{
+    width: 200px;
+}

@@ -10,6 +10,23 @@
     <img src="Misc/Pics/htl_logo.png"/>
     <nav><a href="firstPage.html">Wochenmenü</a> | <a href="secondPage.html">Kontaktaufnahme</a></nav>
 
-    <h1></h1>
+    <h1>Kontaktieren des Küchenpersonals</h1>
+
+    <label for="email">Email:</label>
+    <input style="margin-left: 3px;" type="text" id="email" name="email">
+    <button onclick="validateEmail()">Validate Email</button>
+    
+    <p id="result"></p>
+
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name">
+    </br>
+    </br>
+    <label for="message">Nachricht:</label><br>
+    <textarea id="message" name="message" rows="4"></textarea>
+    </br>
+    <button type="submit">Absenden</button>
 </body>
+
+<script src="Misc/script.js"></script>
 </html>
