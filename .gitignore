@@ -21,3 +21,10 @@
 .ionide
 
 # End of https://www.toptal.com/developers/gitignore/api/visualstudiocode
+
+# Config and Backup-Files
+*.bak
+*.cnf
+
+# Generaly unimportant Files and Folders
+temp
